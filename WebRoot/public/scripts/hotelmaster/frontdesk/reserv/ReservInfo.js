@@ -92,7 +92,7 @@ Neo.frontdesk.ReservInfo = Ext.extend(Ext.FormPanel,{
 												,{
 													xtype:'timefield'
 													,id:'roEarliestTime'
-													,fieldLabel: '最早到店'
+													,fieldLabel: '到达时间'
 													,name: 'roEarliestTime'
 													,format:'H:i:s'
 													,anchor:'95%'
@@ -146,7 +146,7 @@ Neo.frontdesk.ReservInfo = Ext.extend(Ext.FormPanel,{
 												,{
 													xtype:'timefield'
 													,id:'roLatestTime'
-													,fieldLabel: '最晚到店'
+													,fieldLabel: '最晚到达'
 													,name: 'roLatestTime'
 													,format:'H:i:s'
 													,anchor:'95%'

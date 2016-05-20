@@ -313,7 +313,7 @@ Neo.frontdesk.CheckInForm = Ext.extend(Ext.FormPanel,{
 									,border:false
 									,items:[
 										{
-											fieldLabel:'加床费'
+											fieldLabel:'预约编号'
 											,xtype:'textfield'
 											,vtype:'money'
 											,name:'bedRate'

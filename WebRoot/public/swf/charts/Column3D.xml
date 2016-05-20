@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="GBK"?>
-<chart caption='2009年住宿率' xAxisName='状态' 
-baseFont='宋体' baseFontSize ='11.5' yAxisName='客户数' showValues='0' decimals='0' formatNumberScale='0'>
+<chart caption='2015用户数量视图' xAxisName='状态' 
+baseFont='宋体' baseFontSize ='11.5' yAxisName='用户数' showValues='0' decimals='0' formatNumberScale='0'>
 <set label='一月'  value='256' />
 <set label='二月'  value='156' />
 <set label='三月'  value='100' />

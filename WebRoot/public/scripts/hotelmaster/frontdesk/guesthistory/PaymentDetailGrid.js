@@ -22,11 +22,11 @@ Neo.frontdesk.PaymentDetailGrid = Ext.extend(Ext.grid.GridPanel,{
 		
 		var cm = new Ext.grid.ColumnModel([
 	            {id:'name',header: "姓名", width: 20, sortable: true, dataIndex: 'cioGuestName'}
-	            ,{header: "住宿类别", width: 15, sortable: true, dataIndex: 'cioGuestCatalog'}
+	            ,{header: "性别", width: 15, sortable: true, dataIndex: 'cioGuestCatalog'}
 	            ,{header: "团队名称", width: 15, sortable: true, dataIndex: 'cioGroupName'}
 	            ,{header: "住宿人数", width: 12, sortable: true, dataIndex: 'cioManNumber;'}
-	            ,{header: "住宿事由", width: 25, sortable: true, dataIndex: 'cioCause'}
-	            ,{header: "入住时间", width: 18, sortable: true, renderer:timeFormat,dataIndex: 'cioInDateTime'}
+	            
+	            ,{header: "开始时间", width: 18, sortable: true, renderer:timeFormat,dataIndex: 'cioInDateTime'}
 	            ,{header: "预计离开时间", width: 18, sortable: true, renderer:timeFormat,dataIndex: 'cioPreOutDateTime'}
 	            ,{header: "实际离开时间", width: 18, sortable: true, renderer:timeFormat,dataIndex: 'cioPrctOutDateTime'}
 	            ,{header: "支付类型", width: 15, sortable: true, dataIndex: 'cioPaymentModel'}

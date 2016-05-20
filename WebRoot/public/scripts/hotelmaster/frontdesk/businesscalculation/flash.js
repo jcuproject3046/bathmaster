@@ -14,7 +14,7 @@ Neo.frontdesk.flash = Ext.extend(Ext.ux.FusionPanel,{
 		var pie3D = 'public/swf/charts/Pie3D.swf';
 		var Column3D = 'public/swf/charts/Column3D.swf';
 		Ext.apply (this,{
-			title       : '2009年月度用户洗浴统计图',
+			title       : '2015年月度用户洗浴统计图',
 	        collapsible : true,
 	        floating:false,
 	        fusionCfg   :{ id   : 'chart1'

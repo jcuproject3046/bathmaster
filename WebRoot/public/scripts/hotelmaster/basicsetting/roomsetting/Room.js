@@ -14,15 +14,15 @@ Ext.namespace("Neo.basicSetting");
 			else {
 				switch(v){
 		  	case 'public/images/rooms/single.gif':
-		  		val = '单人间';
+		  		val = '男';
 		  		return String.format("<div class='ux-status-view-roompic'>{1}</br><img src='{0}'></div>",v,val);
 		  	case 'public/images/rooms/standardroom.gif':
-		  		val = '标准间';
+		  		val = '女';
 		  		return String.format("<div class='ux-status-view-roompic'>{1}</br><img src='{0}'></div>",v,val);
-		  	case '单人间':
+		  	case '男':
 		  		val = 'public/images/rooms/single.gif';
 		  		return String.format("<div class='ux-status-view-roompic'>{0}</br><img src='{1}'></div>",v,val);
-		  	case '标准间':
+		  	case '女':
 		  		val = 'public/images/rooms/standardroom.gif';
 		  		return String.format("<div class='ux-status-view-roompic'>{0}</br><img src='{1}'></div>",v,val);
 		  	}
@@ -205,7 +205,7 @@ Ext.namespace("Neo.basicSetting");
 				  ,store:new Ext.data.SimpleStore({
 				  fields:['roompic']
 						,data:[
-							['标准间'],['单人间']
+							['女'],['男']
 							]
 				})})
         },
