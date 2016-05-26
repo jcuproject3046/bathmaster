@@ -75,10 +75,10 @@ Neo.frontdesk.CheckInForm = Ext.extend(Ext.FormPanel,{
 									,items:[
 										{
 											xtype:'textfield'
-											,fieldLabel: '天数'
+											,fieldLabel: '淋位数'
 											,name: 'daysNumber'
 											,value:'1'
-											,maxLength:'3'
+											,maxLength:'20'
 											,maxLengthText:'数值超出正常值,请检查后重新输入数'
 											,vtype:'numeric'
 											,anchor:'95%'

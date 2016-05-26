@@ -20,7 +20,7 @@
  */
 
 // Use our blank image
-Ext.BLANK_IMAGE_URL = 'public/images/back.jpg';
+Ext.BLANK_IMAGE_URL = 'resources/images/default/s.gif';
 
 
 
