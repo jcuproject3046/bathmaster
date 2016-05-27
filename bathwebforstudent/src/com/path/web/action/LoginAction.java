@@ -65,9 +65,9 @@ public class LoginAction extends BaseAction{
 				log.setState("2");
 				this.logRepository.saveAndFlush(log);
 			}
-			sendDate("Come in please");
+			sendDate("Come to the Publicbathroom within 10 minutes please");
 		}else{
-			sendDate("Please Reserved first");
+			sendDate("Please Reserve first");
 		}
 	}
 	
