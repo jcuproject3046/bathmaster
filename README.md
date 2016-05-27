@@ -7,4 +7,3 @@ password:
 
 # bathwebforstudent is another website (website for student user)  
 database user name : root  password:
-both two websites use the same database
