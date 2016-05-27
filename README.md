@@ -1,13 +1,10 @@
-# bathmaster (website for bathroom officer)
+both two websites use the same database   
 
-database:
-user name: root
+# bathmaster (website for bathroom officer)
+database: user name: root
 password:
 
 
-bathwebforstudent is another website  
-
+# bathwebforstudent is another website (website for student user)  
 database user name : root  password:
-
-
 both two websites use the same database
